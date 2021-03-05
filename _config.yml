@@ -1,0 +1,128 @@
+language: en
+
+favicon: /favicon.ico
+
+
+author:
+  name: 银河渡舟
+  avatar: /assets/avatar.png
+  signature: 永远相信美好的事情即将发生
+  social:
+    - name: qq
+      link: #
+      icon: iconfont icon-qq
+      color: "#1a98ff"
+    - name: bilibili
+      link: #
+      icon: iconfont icon-bilibili
+      color: "#fc87b2"
+    - name: netease music
+      link: #
+      icon: iconfont icon-netease-music
+      color: "#ff4e6a"
+    - name: github
+      link: #
+      icon: iconfont icon-github
+      color: "#003665"
+    - name: telegram
+      link: #
+      icon: iconfont icon-telegram
+      color: "#00dbff"
+    - name: mail
+      link: #
+      icon: iconfont icon-mail
+      color: "#15ce05"
+    - name: zhihu
+      link: #
+      icon: iconfont icon-zhihu
+      color: "#1e88e5"
+    - name: weibo
+      link: #
+      icon: iconfont icon-weibo
+      color: "#ff3b00"
+
+header: 
+  cover: /sample.jpg
+
+
+navigator:
+  logo:
+    image: /favicon.ico
+    text: 银河渡舟
+  menu:
+    - name: 博客
+      url: /
+    - name: 菜单
+      submenu: 
+        - name: 标签
+          url: /tags
+        - name: 归档
+          url: /archives
+        - divider
+        - name: 友链
+          url: /friends
+        - name: 关于
+          submenu:
+            - name: 标签
+              url: /tags
+            - name: 归档
+              url: /archives
+            - name: 友链
+              url: /friends
+            - name: 关于
+              submenu:
+                - name: 标签
+                  url: /tags
+                - name: 归档
+                  url: /archives
+                - name: 友链
+                  url: /friends
+                - name: 关于
+                  submenu:
+                    - name: 标签
+                      url: /tags
+                    - name: 归档
+                      url: /archives
+                    - name: 友链
+                      url: /friends
+                    - name: 关于
+                      submenu:
+                        - name: 标签
+                          url: /tags
+                        - name: 归档
+                          url: /archives
+                        - name: 友链
+                          url: /friends
+                        - name: 关于
+                          submenu:
+                            - name: 标签
+                              url: /tags
+                            - name: 归档
+                              url: /archives
+                            - name: 友链
+                              url: /friends
+                            - name: 关于
+                              url: /about
+    - name: 分类
+      url: /categories
+    - name: 标签
+      url: /tags
+    - name: 归档
+      url: /archives
+    - name: 友链
+      url: /friends
+    - name: 关于
+      url: /about
+  search: #
+
+sidebar:
+  show_profile: true
+  show_tag_cloud: true
+  show_category_list: true
+  show_toc: true
+
+footer: #
+
+plugins:
+  katex: true
+  anchor: false
