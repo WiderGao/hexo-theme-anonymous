@@ -118,7 +118,7 @@ navigator:
 sidebar:
   show_profile: true
   show_tag_cloud: true
-  show_category_list: true
+  show_category_tree: true
   show_toc: true
 
 footer: #
