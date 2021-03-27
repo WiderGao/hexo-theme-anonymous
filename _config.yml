@@ -113,7 +113,7 @@ navigator:
       url: /friends
     - name: 关于
       url: /about
-  search: #
+  search: true
 
 sidebar:
   show_profile: true
